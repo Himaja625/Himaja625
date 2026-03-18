@@ -1,9 +1,9 @@
 <p align="center">
-  <b style="font-size:18px;">Himaja</b><br/>
+  <b style="font-size:18px;">Naga Himaja Ganugapati</b><br/>
   <i>Data Science Student • Learning with intent</i>
 </p>
 
----
+<hr style="border: 0.5px solid #444;">
 
 ## About Me
 
@@ -11,7 +11,7 @@ I am currently pursuing BTech in Data Science, focused on building a strong foun
 
 I prefer clarity over speed and depth over surface-level knowledge. My learning approach is steady, practical, and consistent.
 
----
+<hr style="border: 0.5px solid #444;">
 
 ## Current Focus
 
@@ -22,7 +22,7 @@ I prefer clarity over speed and depth over surface-level knowledge. My learning 
   <li>Building and applying concepts through practice</li>
 </ul>
 
----
+<hr style="border: 0.5px solid #444;">
 
 ## Tech Stack
 
@@ -34,7 +34,7 @@ I prefer clarity over speed and depth over surface-level knowledge. My learning 
   <code>Tableau</code>
 </p>
 
----
+<hr style="border: 0.5px solid #444;">
 
 ## Presence
 
@@ -43,7 +43,7 @@ I prefer clarity over speed and depth over surface-level knowledge. My learning 
   🔗 LinkedIn: www.linkedin.com/in/naga-himaja 
 </p>
 
----
+<hr style="border: 0.5px solid #444;">
 
 <p align="center">
   <i>Quiet work. Clear direction.</i>
