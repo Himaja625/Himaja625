@@ -26,13 +26,11 @@ I prefer clarity over speed and depth over surface-level knowledge. My learning 
 
 ## Tech Stack
 
-<p>
-  <code>Python</code> &nbsp;
-  <code>C</code> &nbsp;
-  <code>Java</code> &nbsp;
-  <code>HTML</code> &nbsp;
-  <code>Tableau</code>
-</p>
+![Python](https://img.shields.io/badge/Python-blue?style=for-the-badge&logo=python)
+![Java](https://img.shields.io/badge/Java-red?style=for-the-badge&logo=java)
+![C](https://img.shields.io/badge/C-grey?style=for-the-badge&logo=c)
+![HTML](https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5)
+![Tableau](https://img.shields.io/badge/Tableau-blue?style=for-the-badge&logo=tableau)
 
 <hr style="border: 0.5px solid #444;">
 
@@ -48,3 +46,11 @@ I prefer clarity over speed and depth over surface-level knowledge. My learning 
 <p align="center">
   <i>Quiet work. Clear direction.</i>
 </p>
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Himaja625&show_icons=true&theme=tokyonight)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=Himaja625&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Himaja625&layout=compact&theme=tokyonight)
+
+![Snake animation](https://github.com/Himaja625/Himaja625/blob/output/github-contribution-grid-snake.svg)
