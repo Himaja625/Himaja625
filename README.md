@@ -43,14 +43,22 @@ I prefer clarity over speed and depth over surface-level knowledge. My learning 
 
 <hr style="border: 0.5px solid #444;">
 
-<p align="center">
-  <i>Quiet work. Clear direction.</i>
-</p>
-
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Himaja625&show_icons=true&theme=tokyonight)
+
+<hr style="border: 0.5px solid #444;">
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Himaja625&theme=tokyonight)
 
+<hr style="border: 0.5px solid #444;">
+
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Himaja625&layout=compact&theme=tokyonight)
 
+<hr style="border: 0.5px solid #444;">
+
 ![Snake animation](https://github.com/Himaja625/Himaja625/blob/output/github-contribution-grid-snake.svg)
+
+<hr style="border: 0.5px solid #444;">
+
+<p align="center">
+  <i>Quiet work. Clear direction.</i>
+</p>
