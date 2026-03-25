@@ -1,9 +1,9 @@
 name: Generate Snake
 
-'on':
-  schedule:
-  - cron: "0 0 * * *"
-   workflow_dispatch:
+on:
+schedule:
+- cron: "0 0 * * *"
+workflow_dispatch:
 
 jobs:
 build:
@@ -14,6 +14,7 @@ with:
 github_user_name: Himaja625
 outputs: |
   dist/github-contribution-grid-snake.svg
+
 
   - uses: crazy-max/ghaction-github-pages@v3
     with:
