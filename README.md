@@ -39,11 +39,12 @@ I prefer clarity over speed and depth over surface-level knowledge. My learning 
 <p>
   📧 himaja625@gmail.com <br/>
   🔗 LinkedIn: www.linkedin.com/in/naga-himaja 
+  🔗 https://naga-himaja-portfolio.onrender.com
 </p>
 
 <hr style="border: 0.5px solid #444;">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Himaja625&show_icons=true&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=Himaja625&show_icons=true&theme=tokyonight)
 
 <hr style="border: 0.5px solid #444;">
 
