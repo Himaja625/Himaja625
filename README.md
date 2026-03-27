@@ -38,7 +38,7 @@ I prefer clarity over speed and depth over surface-level knowledge. My learning 
 
 <p>
   📧 himaja625@gmail.com <br/>
-  🔗 LinkedIn: www.linkedin.com/in/naga-himaja 
+  🔗 LinkedIn: www.linkedin.com/in/naga-himaja <br/>
   🔗 https://naga-himaja-portfolio.onrender.com
 </p>
 
