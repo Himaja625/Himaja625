@@ -26,7 +26,7 @@ Right now, I'm mostly working with **Python, Data Science, Machine Learning, and
 
 ---
 
-### What I'm into right now
+## What I'm into right now
 
 `Python` &nbsp; `Data Science` &nbsp; `Machine Learning` &nbsp; `Problem Solving`
 
@@ -36,7 +36,7 @@ That means experimenting, building small things, breaking them, fixing them, and
 
 ---
 
-### Things I've built
+## Things I've built
 
 <details>
 <summary><b> HeatGuard</b> : understanding heat beyond a temperature number</summary>
@@ -63,13 +63,13 @@ A Flask-based machine-learning project using astronomical data to classify galax
 
 ---
 
-### My little corner of GitHub
+## My little corner of GitHub
 
 <div align="center">
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Himaja625&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="165">
+<img src="profile/stats.svg" height="165" alt="GitHub statistics">
 
-<img src="https://streak-stats.demolab.com?user=Himaja625&hide_border=true&background=00000000&ring=7C83FD&fire=7C83FD&currStreakLabel=7C83FD" height="165">
+<img src="profile/top-langs.svg" height="165" alt="Most used languages">
 
 </div>
 
@@ -77,13 +77,13 @@ A Flask-based machine-learning project using astronomical data to classify galax
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Himaja625&bg_color=00000000&color=7C83FD&line=7C83FD&point=F2A7C5&area=true&hide_border=true" width="96%">
+<img src="output/github-contribution-grid-snake.svg" width="96%" alt="GitHub contribution activity">
 
 </div>
 
 ---
 
-### Currently learning
+## Currently learning
 
 **Python** → stronger fundamentals  
 **Data Science** → better analysis and intuition  
@@ -94,7 +94,7 @@ No speedrun. I'd rather actually understand it.
 
 ---
 
-### A few things about how I work
+## A few things about how I work
 
 - I like **clarity over unnecessary complexity**.
 - I learn better when I can **build something with what I just learned**.
@@ -105,7 +105,7 @@ No speedrun. I'd rather actually understand it.
 
 <div align="center">
 
-### Thanks for stopping by :)
+## Thanks for stopping by :)
 
 If something here caught your attention, feel free to explore the repositories.
 
