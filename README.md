@@ -16,7 +16,7 @@
 
 <br>
 
-## Hey, I'm Himaja 👋
+## Hey, I'm Himaja
 
 I'm a **Data Science student** who likes figuring out how things work, turning ideas into projects, and learning things properly instead of just collecting tutorials.
 
@@ -36,7 +36,7 @@ That means experimenting, building small things, breaking them, fixing them, and
 
 ---
 
-### things I've built
+### Things I've built
 
 <details>
 <summary><b> HeatGuard</b> : understanding heat beyond a temperature number</summary>
