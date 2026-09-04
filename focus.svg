@@ -1,0 +1,42 @@
+<svg width="1100" height="250" viewBox="0 0 1100 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="250">
+    <stop stop-color="#0E1426"/>
+    <stop offset="1" stop-color="#151B31"/>
+  </linearGradient>
+  <linearGradient id="line" x1="70" y1="0" x2="1030" y2="250">
+    <stop stop-color="#6F79FF"/>
+    <stop offset="0.5" stop-color="#5BD6D6"/>
+    <stop offset="1" stop-color="#9B78FF"/>
+  </linearGradient>
+</defs>
+<rect width="1100" height="250" rx="24" fill="url(#bg)"/>
+<rect x="1" y="1" width="1098" height="248" rx="23" stroke="#FFFFFF" stroke-opacity="0.09"/>
+<text x="56" y="58" fill="#8F9AB8" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="3">CURRENT FOCUS</text>
+
+<g transform="translate(56 92)">
+  <rect width="210" height="92" rx="16" fill="#FFFFFF" fill-opacity="0.045" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="20" y="38" fill="#F2F5FF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Python</text>
+  <text x="20" y="64" fill="#8F9AB8" font-family="Arial, Helvetica, sans-serif" font-size="12">Programming</text>
+</g>
+
+<g transform="translate(286 92)">
+  <rect width="210" height="92" rx="16" fill="#FFFFFF" fill-opacity="0.045" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="20" y="38" fill="#F2F5FF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Problem Solving</text>
+  <text x="20" y="64" fill="#8F9AB8" font-family="Arial, Helvetica, sans-serif" font-size="12">Logical thinking</text>
+</g>
+
+<g transform="translate(516 92)">
+  <rect width="210" height="92" rx="16" fill="#FFFFFF" fill-opacity="0.045" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="20" y="38" fill="#F2F5FF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Data Science</text>
+  <text x="20" y="64" fill="#8F9AB8" font-family="Arial, Helvetica, sans-serif" font-size="12">Core concepts</text>
+</g>
+
+<g transform="translate(746 92)">
+  <rect width="298" height="92" rx="16" fill="#FFFFFF" fill-opacity="0.045" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <text x="20" y="38" fill="#F2F5FF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Building</text>
+  <text x="20" y="64" fill="#8F9AB8" font-family="Arial, Helvetica, sans-serif" font-size="12">Turning concepts into practice</text>
+</g>
+
+<path d="M56 207H1044" stroke="url(#line)" stroke-opacity="0.30"/>
+</svg>
