@@ -1,0 +1,885 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520"
+     fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+  <!-- Background -->
+  <linearGradient id="background"
+      x1="0" y1="0"
+      x2="1200" y2="520"
+      gradientUnits="userSpaceOnUse">
+    <stop stop-color="#FCFBFF"/>
+    <stop offset="0.52" stop-color="#F7F4FF"/>
+    <stop offset="1" stop-color="#F1EEFC"/>
+  </linearGradient>
+
+  <!-- Soft glows -->
+  <radialGradient id="lavenderGlow">
+    <stop stop-color="#B9ACFF" stop-opacity="0.38"/>
+    <stop offset="1" stop-color="#B9ACFF" stop-opacity="0"/>
+  </radialGradient>
+
+  <radialGradient id="pinkGlow">
+    <stop stop-color="#F4B9D7" stop-opacity="0.30"/>
+    <stop offset="1" stop-color="#F4B9D7" stop-opacity="0"/>
+  </radialGradient>
+
+  <radialGradient id="blueGlow">
+    <stop stop-color="#A8CFFF" stop-opacity="0.22"/>
+    <stop offset="1" stop-color="#A8CFFF" stop-opacity="0"/>
+  </radialGradient>
+
+  <!-- Grid -->
+  <pattern id="grid"
+      width="28"
+      height="28"
+      patternUnits="userSpaceOnUse">
+
+    <path
+      d="M28 0H0V28"
+      stroke="#74708F"
+      stroke-opacity="0.055"/>
+
+  </pattern>
+
+  <!-- Laptop screen -->
+  <linearGradient id="screen"
+      x1="690" y1="170"
+      x2="1030" y2="380"
+      gradientUnits="userSpaceOnUse">
+    <stop stop-color="#25263C"/>
+    <stop offset="1" stop-color="#111321"/>
+  </linearGradient>
+
+  <!-- Chart -->
+  <linearGradient id="chart"
+      x1="720" y1="350"
+      x2="1000" y2="220"
+      gradientUnits="userSpaceOnUse">
+    <stop stop-color="#8F82F5"/>
+    <stop offset="0.5" stop-color="#63D0D0"/>
+    <stop offset="1" stop-color="#F0A5CA"/>
+  </linearGradient>
+
+  <!-- Shadows -->
+  <filter id="cardShadow"
+      x="-30%" y="-30%"
+      width="160%" height="180%">
+
+    <feDropShadow
+      dx="0"
+      dy="10"
+      stdDeviation="14"
+      flood-color="#625D78"
+      flood-opacity="0.12"/>
+
+  </filter>
+
+  <filter id="laptopShadow"
+      x="-30%" y="-30%"
+      width="170%"
+      height="180%">
+
+    <feDropShadow
+      dx="0"
+      dy="15"
+      stdDeviation="18"
+      flood-color="#56536C"
+      flood-opacity="0.18"/>
+
+  </filter>
+
+  <!-- Animations -->
+  <style>
+
+    .floatOne {
+      animation: floatOne 5s ease-in-out infinite;
+    }
+
+    .floatTwo {
+      animation: floatTwo 6s ease-in-out infinite;
+    }
+
+    .softPulse {
+      animation: softPulse 3.5s ease-in-out infinite;
+    }
+
+    .drawChart {
+      stroke-dasharray: 520;
+      stroke-dashoffset: 520;
+      animation: drawChart 2.8s ease-out forwards;
+    }
+
+    @keyframes floatOne {
+      0%,100% {
+        transform: translateY(0px);
+      }
+
+      50% {
+        transform: translateY(-7px);
+      }
+    }
+
+    @keyframes floatTwo {
+      0%,100% {
+        transform: translateY(0px);
+      }
+
+      50% {
+        transform: translateY(6px);
+      }
+    }
+
+    @keyframes softPulse {
+      0%,100% {
+        opacity: 0.45;
+      }
+
+      50% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes drawChart {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+  </style>
+
+</defs>
+
+
+<!-- ========================================================= -->
+<!-- BACKGROUND -->
+<!-- ========================================================= -->
+
+<rect
+  width="1200"
+  height="520"
+  rx="32"
+  fill="url(#background)"/>
+
+<rect
+  x="1"
+  y="1"
+  width="1198"
+  height="518"
+  rx="31"
+  stroke="#DDD9EE"/>
+
+<rect
+  x="28"
+  y="28"
+  width="1144"
+  height="464"
+  rx="26"
+  fill="url(#grid)"/>
+
+
+<!-- Soft atmospheric glows -->
+
+<ellipse
+  cx="970"
+  cy="100"
+  rx="300"
+  ry="245"
+  fill="url(#lavenderGlow)"/>
+
+<ellipse
+  cx="1040"
+  cy="310"
+  rx="250"
+  ry="230"
+  fill="url(#pinkGlow)"/>
+
+<ellipse
+  cx="720"
+  cy="500"
+  rx="300"
+  ry="180"
+  fill="url(#blueGlow)"/>
+
+
+<!-- Decorative dots -->
+
+<circle
+  cx="680"
+  cy="70"
+  r="3"
+  fill="#6ACBC8"/>
+
+<circle
+  cx="765"
+  cy="65"
+  r="4"
+  fill="#8174EA"
+  class="softPulse"/>
+
+<circle
+  cx="835"
+  cy="115"
+  r="3"
+  fill="#9C8AF2"/>
+
+<circle
+  cx="1080"
+  cy="160"
+  r="3"
+  fill="#E5A7CB"/>
+
+<circle
+  cx="1115"
+  cy="390"
+  r="4"
+  fill="#6ACBC8"
+  class="softPulse"/>
+
+<circle
+  cx="1005"
+  cy="465"
+  r="3"
+  fill="#8174EA"/>
+
+
+<!-- ========================================================= -->
+<!-- LEFT SIDE -->
+<!-- ========================================================= -->
+
+<!-- Label -->
+
+<rect
+  x="72"
+  y="62"
+  width="265"
+  height="34"
+  rx="17"
+  fill="#F0EDFF"/>
+
+<circle
+  cx="92"
+  cy="79"
+  r="5"
+  fill="#7568E8"/>
+
+<text
+  x="112"
+  y="84"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="13"
+  font-weight="600"
+  letter-spacing="4"
+  fill="#65628B">
+  DATA SCIENCE STUDENT
+</text>
+
+
+<!-- Main heading -->
+
+<text
+  x="72"
+  y="158"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="48"
+  font-weight="700"
+  fill="#151626">
+  Hey, I'm
+</text>
+
+<text
+  x="270"
+  y="158"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="48"
+  font-weight="700"
+  fill="#806CF0">
+  Himaja.
+</text>
+
+
+<!-- Heading underline -->
+
+<rect
+  x="74"
+  y="179"
+  width="185"
+  height="3"
+  rx="2"
+  fill="#8979F2"/>
+
+
+<!-- Learning card -->
+
+<g class="floatOne">
+
+  <rect
+    x="72"
+    y="300"
+    width="390"
+    height="104"
+    rx="22"
+    fill="#FFFFFF"
+    stroke="#E0DCEB"
+    filter="url(#cardShadow)"/>
+
+  <!-- Icon -->
+
+  <circle
+    cx="106"
+    cy="352"
+    r="23"
+    fill="#F0ECFF"/>
+
+  <circle
+    cx="106"
+    cy="352"
+    r="10"
+    stroke="#776AE7"
+    stroke-width="2"/>
+
+  <path
+    d="M106 336V332
+       M106 372V368
+       M90 352H86
+       M126 352H122
+       M95 341L92 338
+       M117 363L120 366
+       M117 341L120 338
+       M95 363L92 366"
+    stroke="#776AE7"
+    stroke-width="1.8"
+    stroke-linecap="round"/>
+
+
+  <text
+    x="145"
+    y="346"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="18"
+    font-weight="700"
+    fill="#24243A">
+    learn → build → understand
+  </text>
+
+  <text
+    x="145"
+    y="374"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="14"
+    fill="#77748A">
+    still figuring it out, honestly.
+  </text>
+
+</g>
+
+
+<!-- ========================================================= -->
+<!-- RIGHT FLOATING CARDS -->
+<!-- ========================================================= -->
+
+<!-- Decorative circles behind cards -->
+
+<circle
+  cx="960"
+  cy="88"
+  r="120"
+  fill="#B9AEF3"
+  opacity="0.20"/>
+
+<circle
+  cx="1030"
+  cy="245"
+  r="100"
+  fill="#E5A9CA"
+  opacity="0.16"/>
+
+
+<!-- Currently Python -->
+
+<g class="floatTwo">
+
+  <rect
+    x="1010"
+    y="60"
+    width="155"
+    height="94"
+    rx="19"
+    fill="#FFFFFF"
+    stroke="#E0DCEB"
+    filter="url(#cardShadow)"
+    transform="rotate(4 1010 60)"/>
+
+  <text
+    x="1034"
+    y="96"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    fill="#77748A"
+    transform="rotate(4 1034 96)">
+    currently
+  </text>
+
+  <text
+    x="1034"
+    y="125"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="18"
+    font-weight="700"
+    fill="#24243A"
+    transform="rotate(4 1034 125)">
+    Python
+  </text>
+
+  <path
+    d="M1137 91L1147 101L1137 111"
+    stroke="#776AE7"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    transform="rotate(4 1142 101)"/>
+
+</g>
+
+
+<!-- Exploring ML + Data -->
+
+<g class="floatOne">
+
+  <rect
+    x="1025"
+    y="205"
+    width="158"
+    height="94"
+    rx="19"
+    fill="#FFFFFF"
+    stroke="#E0DCEB"
+    filter="url(#cardShadow)"
+    transform="rotate(-3 1025 205)"/>
+
+  <text
+    x="1047"
+    y="240"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    fill="#77748A"
+    transform="rotate(-3 1047 240)">
+    exploring
+  </text>
+
+  <text
+    x="1047"
+    y="269"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="16"
+    font-weight="700"
+    fill="#24243A"
+    transform="rotate(-3 1047 269)">
+    ML + Data
+  </text>
+
+  <circle
+    cx="1147"
+    cy="256"
+    r="15"
+    fill="#EEEAFE"
+    transform="rotate(-3 1147 256)"/>
+
+  <path
+    d="M1140 256L1146 262L1155 250"
+    stroke="#776AE7"
+    stroke-width="2.4"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+</g>
+
+
+<!-- ========================================================= -->
+<!-- LAPTOP -->
+<!-- ========================================================= -->
+
+<g filter="url(#laptopShadow)">
+
+  <!-- Screen body -->
+
+  <rect
+    x="650"
+    y="155"
+    width="390"
+    height="250"
+    rx="20"
+    fill="#27283E"
+    stroke="#383951"
+    stroke-width="3"/>
+
+  <!-- Screen -->
+
+  <rect
+    x="666"
+    y="171"
+    width="358"
+    height="218"
+    rx="11"
+    fill="url(#screen)"/>
+
+
+  <!-- Screen grid -->
+
+  <path
+    d="M695 215H997
+       M695 255H997
+       M695 295H997
+       M695 335H997"
+    stroke="#747592"
+    stroke-opacity="0.18"/>
+
+  <path
+    d="M730 195V360
+       M775 195V360
+       M820 195V360
+       M865 195V360
+       M910 195V360
+       M955 195V360"
+    stroke="#747592"
+    stroke-opacity="0.09"/>
+
+
+  <!-- Screen heading -->
+
+  <text
+    x="695"
+    y="198"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="9"
+    letter-spacing="2"
+    fill="#9292A9">
+    DATA / EXPERIMENT
+  </text>
+
+
+  <!-- Tiny interface dots -->
+
+  <circle
+    cx="976"
+    cy="186"
+    r="3"
+    fill="#8175EA"/>
+
+  <circle
+    cx="987"
+    cy="186"
+    r="3"
+    fill="#6ACCC8"/>
+
+  <circle
+    cx="998"
+    cy="186"
+    r="3"
+    fill="#E5A5C9"/>
+
+
+  <!-- Chart -->
+
+  <path
+    d="
+      M700 342
+      C735 330 755 321 782 310
+      C806 300 817 310 842 291
+      C866 272 880 281 901 256
+      C925 228 951 243 998 210
+    "
+    stroke="url(#chart)"
+    stroke-width="5"
+    stroke-linecap="round"
+    fill="none"
+    class="drawChart"/>
+
+
+  <!-- Chart points -->
+
+  <circle
+    cx="700"
+    cy="342"
+    r="6"
+    fill="#9184F4"/>
+
+  <circle
+    cx="782"
+    cy="310"
+    r="6"
+    fill="#69D0CD"/>
+
+  <circle
+    cx="842"
+    cy="291"
+    r="6"
+    fill="#9184F4"/>
+
+  <circle
+    cx="901"
+    cy="256"
+    r="6"
+    fill="#6ED2D0"/>
+
+  <circle
+    cx="998"
+    cy="210"
+    r="6"
+    fill="#ECA4C8"/>
+
+
+  <!-- Chart label -->
+
+  <rect
+    x="845"
+    y="320"
+    width="135"
+    height="44"
+    rx="10"
+    fill="#343550"
+    stroke="#474965"/>
+
+  <text
+    x="860"
+    y="339"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#D0CEE0">
+    A little progress
+  </text>
+
+  <text
+    x="860"
+    y="355"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    fill="#D0CEE0">
+    every day
+  </text>
+
+
+  <!-- Laptop base -->
+
+  <path
+    d="
+      M642 405
+      L1048 405
+      L1090 439
+      Q1097 447 1081 447
+      L620 447
+      Q606 447 614 438
+      Z"
+    fill="#B7B7C7"/>
+
+  <path
+    d="
+      M620 438
+      L1080 438
+      L1089 446
+      L612 446
+      Z"
+    fill="#9696A8"/>
+
+  <!-- Trackpad -->
+
+  <path
+    d="M815 415H875"
+    stroke="#A1A1B0"
+    stroke-width="2"
+    stroke-linecap="round"/>
+
+</g>
+
+
+<!-- ========================================================= -->
+<!-- LAPTOP DETAIL CARD -->
+<!-- ========================================================= -->
+
+<g class="floatTwo">
+
+  <rect
+    x="720"
+    y="392"
+    width="260"
+    height="86"
+    rx="19"
+    fill="#FFFFFF"
+    stroke="#E0DCEB"
+    filter="url(#cardShadow)"/>
+
+  <circle
+    cx="750"
+    cy="425"
+    r="9"
+    fill="#67C9C7"/>
+
+  <text
+    x="772"
+    y="430"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="15"
+    font-weight="700"
+    fill="#29283D">
+    data · code · ideas
+  </text>
+
+  <text
+    x="772"
+    y="453"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    fill="#77748A">
+    building one concept at a time
+  </text>
+
+</g>
+
+
+<!-- ========================================================= -->
+<!-- BOTTOM NAV -->
+<!-- ========================================================= -->
+
+<!-- About -->
+
+<rect
+  x="72"
+  y="448"
+  width="130"
+  height="40"
+  rx="20"
+  fill="#FFFFFF"
+  stroke="#DDD9E8"/>
+
+<circle
+  cx="94"
+  cy="468"
+  r="7"
+  stroke="#4E4B64"
+  stroke-width="1.6"/>
+
+<path
+  d="M87 480C88 475 91 473 94 473C97 473 100 475 101 480"
+  stroke="#4E4B64"
+  stroke-width="1.6"
+  stroke-linecap="round"/>
+
+<text
+  x="112"
+  y="473"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="14"
+  font-weight="600"
+  fill="#414055">
+  about me
+</text>
+
+
+<!-- Things I've built -->
+
+<rect
+  x="214"
+  y="448"
+  width="160"
+  height="40"
+  rx="20"
+  fill="#FFFFFF"
+  stroke="#DDD9E8"/>
+
+<path
+  d="M237 462H248V477H237V462Z"
+  stroke="#4E4B64"
+  stroke-width="1.7"
+  stroke-linejoin="round"/>
+
+<path
+  d="M239 462L241 459H246L248 462"
+  stroke="#4E4B64"
+  stroke-width="1.7"
+  stroke-linecap="round"
+  stroke-linejoin="round"/>
+
+<text
+  x="258"
+  y="473"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="14"
+  font-weight="600"
+  fill="#414055">
+  things I've built
+</text>
+
+
+<!-- What I'm learning -->
+
+<rect
+  x="386"
+  y="448"
+  width="185"
+  height="40"
+  rx="20"
+  fill="#FFFFFF"
+  stroke="#8A7AF0"
+  stroke-width="1.5"/>
+
+<path
+  d="M410 476V469
+       M416 476V464
+       M422 476V467
+       M428 476V460"
+  stroke="#776AE7"
+  stroke-width="2.2"
+  stroke-linecap="round"/>
+
+<text
+  x="443"
+  y="473"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="14"
+  font-weight="600"
+  fill="#6558A9">
+  what I'm learning
+</text>
+
+
+<!-- ========================================================= -->
+<!-- FOOTER DETAIL -->
+<!-- ========================================================= -->
+
+<path
+  d="M610 479H1125"
+  stroke="#D9D6E5"
+  stroke-width="1"/>
+
+<circle
+  cx="1125"
+  cy="479"
+  r="3"
+  fill="#8175E8"/>
+
+
+<text
+  x="72"
+  y="505"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="11"
+  font-weight="600"
+  letter-spacing="4"
+  fill="#6B6890">
+  DATA · CODE · IDEAS
+</text>
+
+
+<text
+  x="405"
+  y="505"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="11"
+  font-weight="500"
+  letter-spacing="2"
+  fill="#858197">
+  BUILDING ONE CONCEPT AT A TIME
+</text>
+
+
+</svg>
