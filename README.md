@@ -1,47 +1,44 @@
-<p align="center">
-  <h1 align="center">Naga Himaja Ganugapati</h1>
-  <p align="center">
-    Data Science Student • Learning with intent
-  </p>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/Himaja625">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white">
-  </a>
-  <a href="https://www.linkedin.com/in/naga-himaja">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white">
-  </a>
-</p>
+<img src="./assets/header.svg" width="100%" alt="Naga Himaja Ganugapati">
 
----
+<br>
+
+<a href="https://github.com/Himaja625">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/naga-himaja">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+&nbsp;
+<a href="https://naga-himaja-portfolio.onrender.com">
+  <img src="https://img.shields.io/badge/Portfolio-5B5BD6?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio">
+</a>
+
+</div>
+
+<br>
 
 ## About Me
 
-I am currently pursuing BTech in Data Science, focused on building a
-strong foundation in programming and analytical thinking.
+I am currently pursuing BTech in Data Science, focused on building a strong
+foundation in programming and analytical thinking.
 
 I prefer clarity over speed and depth over surface-level knowledge.
 My learning approach is steady, practical, and consistent.
 
-## What I’m Focusing On
+<br>
 
-- Python
-- Problem-solving and logical thinking
-- Core Data Science concepts
-- Building and applying concepts through practice
+<div align="center">
 
-## Tools I Work With
+<img src="./assets/focus.svg" width="88%" alt="Current focus">
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white">
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white">
-</p>
+</div>
 
-## A Little More
+<br>
+
+## How I Learn
 
 I enjoy learning by building, experimenting with ideas, and gradually
 turning concepts into something practical.
@@ -49,33 +46,51 @@ turning concepts into something practical.
 I am still learning, still improving, and trying to understand things
 properly rather than simply getting them to work.
 
+<br>
+
+<div align="center">
+
+<img src="./assets/stack.svg" width="92%" alt="Tools I work with">
+
+</div>
+
+<br>
+
+## GitHub Activity
+
+<div align="center">
+
+<img src="./profile/stats.svg" width="49%" alt="GitHub statistics">
+<img src="./profile/top-langs.svg" width="49%" alt="Top languages">
+
+<br><br>
+
+<img src="https://streak-stats.demolab.com?user=Himaja625&theme=tokyonight&hide_border=true" alt="GitHub streak">
+
+<br><br>
+
+<img src="https://github.com/Himaja625/Himaja625/blob/output/github-contribution-grid-snake.svg" width="92%" alt="Contribution activity">
+
+</div>
+
+<br>
+
 ## Find Me Here
 
-<p>
-  📧 <a href="mailto:himaja625@gmail.com">himaja625@gmail.com</a><br/>
-  🔗 <a href="https://www.linkedin.com/in/naga-himaja">LinkedIn</a><br/>
-  🌐 <a href="https://naga-himaja-portfolio.onrender.com">Portfolio</a>
-</p>
+<div align="center">
 
----
+<a href="mailto:himaja625@gmail.com">Email</a>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/naga-himaja">LinkedIn</a>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="https://naga-himaja-portfolio.onrender.com">Portfolio</a>
 
-## GitHub
+</div>
 
-<p align="center">
-  <img src="./profile/stats.svg" width="49%" />
-  <img src="./profile/top-langs.svg" width="49%" />
-</p>
+<br><br>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Himaja625&theme=tokyonight&hide_border=true" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://github.com/Himaja625/Himaja625/blob/output/github-contribution-grid-snake.svg" />
-</p>
+<i>Quiet work. Clear direction.</i>
 
----
-
-<p align="center">
-  <i>Quiet work. Clear direction.</i>
-</p>
+</div>
